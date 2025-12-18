@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
-  css: ['/Users/amouzou/Documents/INFORMATIQUE_HORS_ECOLE/amuzo_landing_page/nuxt-app/assets/css/main.css'],
+  css: ['~/assets/css/main.css'],
   runtimeConfig: {
     smtpHost: process.env.SMTP_HOST || '',
     smtpPort: process.env.SMTP_PORT || '587',
