@@ -294,6 +294,7 @@ useHead({
 .newsletter-input:focus {
   border-color: #fff;
   background: rgba(255, 255, 255, 0.05);
+  outline: none;
 }
 
 .lux-button {
