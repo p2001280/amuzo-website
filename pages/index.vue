@@ -359,7 +359,7 @@ useHead({
     position: relative; 
     top: auto;
     padding-top: 0.5rem;
-    margin-bottom: -1rem;
+    margin-bottom: 2rem;
   }
 
   .logo {
