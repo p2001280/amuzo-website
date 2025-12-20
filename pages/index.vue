@@ -358,7 +358,7 @@ useHead({
   .header {
     position: relative; 
     top: auto;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
     margin-bottom: 2rem;
   }
 
