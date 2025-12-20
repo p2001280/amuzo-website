@@ -358,54 +358,84 @@ useHead({
   .header {
     position: relative; 
     top: auto;
-    padding-top: 1.5rem;
-    margin-bottom: -2rem;
+    padding-top: 0.5rem;
+    margin-bottom: -1rem;
   }
 
   .logo {
-    max-width: 150px;
+    max-width: 120px;
     margin-top: 0;
   }
 
   .hero {
     min-height: auto;
-    padding: 3rem 0;
+    padding: 1rem 0;
+    align-items: flex-start; /* Aligner en haut pour gagner de la place */
   }
   
   .hero-content {
-     padding-top: 2rem;
+     padding-top: 1rem;
+     min-height: auto; /* Supprime la hauteur minimale forcée */
+     justify-content: flex-start;
+  }
+
+  .hero-subtitle {
+    margin-bottom: 0.5rem;
+    font-size: 0.65rem;
   }
 
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-text {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
   }
 
   .countdown-wrapper {
-    gap: 1rem;
+    margin: 1rem 0;
+    gap: 0.5rem;
     flex-wrap: wrap;
   }
 
   .countdown-item {
-    padding: 0.8rem;
-    min-width: 60px;
+    padding: 0.5rem;
+    min-width: 55px;
   }
 
   .countdown-number {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .countdown-label {
+    font-size: 0.5rem;
   }
 
   .newsletter-form {
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter-input {
+    padding: 0.75rem;
   }
 
   .lux-button {
     width: 100%;
+    padding: 0.75rem;
   }
 
   .footer-content {
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.5rem;
+  }
+  
+  .footer {
+    padding: 1rem 0;
   }
 }
 
