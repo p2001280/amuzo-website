@@ -354,14 +354,35 @@ useHead({
   opacity: 0.75;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
+  .header {
+    position: relative; 
+    top: auto;
+    padding-top: 1.5rem;
+    margin-bottom: -2rem;
+  }
+
+  .logo {
+    max-width: 150px;
+    margin-top: 0;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 3rem 0;
+  }
+  
+  .hero-content {
+     padding-top: 2rem;
+  }
+
   .hero-title {
     font-size: 2.2rem;
   }
 
   .countdown-wrapper {
     gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .countdown-item {
@@ -375,6 +396,7 @@ useHead({
 
   .newsletter-form {
     flex-direction: column;
+    gap: 1.25rem;
   }
 
   .lux-button {
@@ -387,7 +409,6 @@ useHead({
   }
 }
 
-/* ANIMATIONS */
 @keyframes fadeIn {
   to { opacity: 1; }
 }
